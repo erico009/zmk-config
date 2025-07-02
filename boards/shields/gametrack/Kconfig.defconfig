@@ -1,0 +1,17 @@
+if SHIELD_GAMETRACK_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "gametrack"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_GAMETRACK_LEFT || SHIELD_GAMETRACK_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
