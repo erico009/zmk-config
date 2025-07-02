@@ -1,4 +1,4 @@
-#include "gametrack.dtsi" // The shared dtsi file is included in the overlay
+#include "gametrack.dtsi"
 
 &kscan0 {
     col-gpios
@@ -8,6 +8,6 @@
         ;
 };
 
-&default_transform { // Offset of 3 because the left side has 3 columns
+&default_transform {
     col-offset = <3>;
 };

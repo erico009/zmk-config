@@ -1,4 +1,4 @@
-#include "gametrack.dtsi" // The shared dtsi file is included in the overlay
+#include "gametrack.dtsi"
 
 &kscan0 {
     col-gpios
