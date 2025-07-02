@@ -1,6 +1,8 @@
-config SHIELD_gametrack_LEFT
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_GAMETRACK_LEFT
     def_bool $(shields_list_contains,gametrack_left)
 
-# No whitespace after the comma or in your part name!
-config SHIELD_gametrack_RIGHT
+config SHIELD_GAMETRACK_RIGHT
     def_bool $(shields_list_contains,gametrack_right)

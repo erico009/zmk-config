@@ -1,6 +1,8 @@
-if SHIELD_gametrack_LEFT
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
 
-# Name must be less than 16 characters long!
+if SHIELD_GAMETRACK_LEFT
+
 config ZMK_KEYBOARD_NAME
     default "gametrack"
 
@@ -9,7 +11,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_gametrack_LEFT || SHIELD_gametrack_RIGHT
+if SHIELD_GAMETRACK_LEFT || SHIELD_GAMETRACK_RIGHT
 
 config ZMK_SPLIT
     default y
