@@ -45,7 +45,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)                           RC(4,6)
                 row-offset = <4>; // ...and shift it to not overlap
             };
         };
-    kscan1: kscan {
+    kscan1: kscan_matrix {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
 
