@@ -65,4 +65,8 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)                           RC(4,6)
             , <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
     };
+    trackpoint_listener: trackpoint_listener {
+        compatible = "zmk,input-listener";
+        status = "disabled";
+    };
 };
