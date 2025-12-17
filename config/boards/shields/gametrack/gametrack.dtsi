@@ -66,16 +66,6 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4)                           RC(4,6)
             ;
     };
 
-    split_inputs {
-        #address-cells = <1>;
-        #size-cells = <0>;
-
-        glidepoint_split: glidepoint_split@0 {
-            compatible = "zmk,input-split";
-            reg = <0>;
-        };
-    };
-
     glidepoint_listener: glidepoint_listener {
         compatible = "zmk,input-listener";
         status = "disabled";
