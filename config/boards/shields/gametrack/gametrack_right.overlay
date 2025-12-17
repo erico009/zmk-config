@@ -33,6 +33,11 @@
         sleep;
     };
 };
+
+&glidepoint_split {
+    device = <&glidepoint>;
+};
+
 &glidepoint_listener {
     status = "okay";
     device = <&glidepoint>;
