@@ -1,0 +1,14 @@
+file_format: "1"
+id: gametrack
+name: gameTrack
+type: shield
+url: https://github.com/erico009/gametrack
+requires: [pro_micro]
+exposes:
+  - i2c_glidepoint
+features:
+  - keys
+  - pointer
+siblings:
+  - gametrack_left
+  - gametrack_right
