@@ -8,7 +8,7 @@
     col-gpios
         = <&pro_micro 1 GPIO_ACTIVE_HIGH>
         , <&pro_micro 0 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 18 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 2 GPIO_ACTIVE_HIGH>
         , <&pro_micro 19 GPIO_ACTIVE_HIGH>
         , <&pro_micro 20 GPIO_ACTIVE_HIGH>
         , <&pro_micro 21 GPIO_ACTIVE_HIGH>
@@ -17,7 +17,7 @@
 
 &pro_micro_spi {
     status = "okay";
-    cs-gpios = <&pro_micro 7 GPIO_ACTIVE_LOW>;
+    cs-gpios = <&pro_micro 18 GPIO_ACTIVE_LOW>;
 
     glidepoint: glidepoint@0 {
         compatible = "cirque,pinnacle";
