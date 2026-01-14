@@ -30,7 +30,6 @@
 
         sensitivity = "1x";
         sleep;
-        no-taps;
     };
 };
 
