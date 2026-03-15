@@ -10,7 +10,6 @@
  #define ADJUST 3
 
 / {
-
        keymap {
               compatible = "zmk,keymap";
 
