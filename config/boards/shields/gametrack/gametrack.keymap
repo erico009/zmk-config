@@ -10,8 +10,6 @@
  #define RAISE  2
  #define ADJUST 3
 
- &caps_word
-
 / {
        combos {
         compatible = "zmk,combos";
